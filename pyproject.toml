@@ -1,0 +1,7 @@
+[project]
+name = "planeon-model-plane"
+version = "0.0.0"
+description = "Model plane health-only shell (PLANE-BOOTSTRAP-R06); standard library only."
+requires-python = "==3.12.14"
+dependencies = []
+license = "Apache-2.0"
