@@ -1,0 +1,325 @@
+{
+  "archive": {
+    "bytes": 38889520,
+    "recomputedTree": "03d5ee6748f415d4069dc570764c24ff3576a0f1",
+    "sha256": "3f5f750e36326aea4d65c7623e7d597a33e395d65f4d76e5e0532171f252532b",
+    "treeMatchesCommit": true,
+    "treeTool": "standard-library tree recomputation from the archive's files (tree_check.json)"
+  },
+  "buildInputs": {
+    "buildSystem": "CMake, Make",
+    "buildSystemFiles": [
+      {
+        "file": "CMakeLists.txt",
+        "sha256": "ede5bbf33de939489087579c2b212a097d3bbb208146b12077d375ae5ee7dc58",
+        "system": "CMake"
+      },
+      {
+        "file": "Makefile",
+        "sha256": "81cf8d21005a58822cdf457f1caab1da5f02d34ddcaa75e871b32f05e3e52efe",
+        "system": "Make"
+      }
+    ],
+    "cStandard": {
+      "sourcePath": "CMakeLists.txt",
+      "sourceSha256": "ede5bbf33de939489087579c2b212a097d3bbb208146b12077d375ae5ee7dc58",
+      "value": "not stated"
+    },
+    "cmakeMinimumRequired": {
+      "sourcePath": "CMakeLists.txt",
+      "sourceSha256": "ede5bbf33de939489087579c2b212a097d3bbb208146b12077d375ae5ee7dc58",
+      "value": "3.14...3.28"
+    },
+    "cxxStandard": {
+      "sourcePath": "CMakeLists.txt",
+      "sourceSha256": "ede5bbf33de939489087579c2b212a097d3bbb208146b12077d375ae5ee7dc58",
+      "value": "not stated"
+    },
+    "source": {
+      "file": "engine_facts.json",
+      "rules": "fixed table and patterns of engine_facts.py; a rule that does not match records 'not stated'",
+      "sha256": "0e24a4e730d6b89b31009d4a5fcabc794752d9ab74fbafd88450f32ce867a8c3"
+    }
+  },
+  "components": [
+    {
+      "identifier": "MIT",
+      "licenceFile": "gguf-py/LICENSE",
+      "licenceFileSha256": "ef78c7e6659e34c798194f0d344e807c722de70cbca1359ef54772661e11ca38",
+      "name": "gguf-py",
+      "path": "gguf-py",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "MIT",
+      "licenceFile": "licenses/LICENSE-jsonhpp",
+      "licenceFileSha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86",
+      "name": "jsonhpp",
+      "path": "licenses/LICENSE-jsonhpp",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "Unlicense",
+      "licenceFile": "tools/ui/src/lib/vendors/big-integer/LICENSE",
+      "licenceFileSha256": "e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363",
+      "name": "big-integer",
+      "path": "tools/ui/src/lib/vendors/big-integer",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "MIT",
+      "licenceFile": "tools/ui/src/lib/vendors/decimal.js/LICENCE.md",
+      "licenceFileSha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c",
+      "name": "decimal.js",
+      "path": "tools/ui/src/lib/vendors/decimal.js",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "MIT",
+      "licenceFile": "tools/ui/src/lib/vendors/nerdamer-prime/LICENSE",
+      "licenceFileSha256": "c9f52548869a0a2e63a7100055c54cebf36b9327c8fc2da7cf9ca8dddc2f1cca",
+      "name": "nerdamer-prime",
+      "path": "tools/ui/src/lib/vendors/nerdamer-prime",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "MIT",
+      "licenceFile": "vendor/cpp-httplib/LICENSE",
+      "licenceFileSha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b",
+      "name": "cpp-httplib",
+      "path": "vendor/cpp-httplib",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "MIT",
+      "licenceFile": "vendor/hash/rotate-bits/LICENSE.md",
+      "licenceFileSha256": "ca0b44aec101afb6b46f4c39b23369fa06a64fb9c0add37c2689d702156fee55",
+      "name": "rotate-bits",
+      "path": "vendor/hash/rotate-bits",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "LicenseRef-PublicDomain",
+      "licenceFile": "vendor/hash/sha256/LICENSE",
+      "licenceFileSha256": "b81d0022ca6367918c67b57e9647d3513ee58809fd4b0ef0b3492f1356bced25",
+      "name": "sha256",
+      "path": "vendor/hash/sha256",
+      "result": "ACCEPTED"
+    },
+    {
+      "identifier": "BSD-2-Clause",
+      "licenceFile": "vendor/hash/xxhash/LICENSE",
+      "licenceFileSha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a",
+      "name": "xxhash",
+      "path": "vendor/hash/xxhash",
+      "result": "ACCEPTED"
+    }
+  ],
+  "engine": "ggml-org/llama.cpp",
+  "evidence": {
+    "gates": {
+      "G1": "RECORDED",
+      "G2": "RECORDED",
+      "G3": "NOT_RUN",
+      "G4": "NOT_RUN",
+      "G5": "NOT_RUN",
+      "G6": "NOT_RUN",
+      "G7": "NOT_RUN",
+      "G8": "NOT_RUN"
+    },
+    "state": "PLANNED_BASELINE_TARGET"
+  },
+  "gateEvidence": {
+    "account": "mirror-read",
+    "check": "mck1",
+    "entriesChecked": 1,
+    "file": "mirror_check.json",
+    "mismatches": 0,
+    "ok": true,
+    "sha256": "c808e22fd31ad412620aa09ae687a331e78df37245009712dbeb3c6019aa0f8b"
+  },
+  "licenceFiles": [
+    {
+      "bytes": 1078,
+      "identifier": "MIT",
+      "path": "LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "rule": "mit-grant+notice",
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "bytes": 1445,
+      "identifier": "NOT_A_LICENCE_TEXT",
+      "path": "cmake/license.cmake",
+      "result": "NOT_A_LICENCE_TEXT",
+      "reviewedSha256": "083515dff8a9b8696e348c7c616934e53941a7db30e1b3f092576632e9a2d1d4",
+      "rule": "code-or-build-file-without-grant",
+      "sha256": "083515dff8a9b8696e348c7c616934e53941a7db30e1b3f092576632e9a2d1d4"
+    },
+    {
+      "bytes": 1072,
+      "identifier": "MIT",
+      "path": "gguf-py/LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "ef78c7e6659e34c798194f0d344e807c722de70cbca1359ef54772661e11ca38",
+      "rule": "mit-grant+notice",
+      "sha256": "ef78c7e6659e34c798194f0d344e807c722de70cbca1359ef54772661e11ca38"
+    },
+    {
+      "bytes": 1075,
+      "identifier": "MIT",
+      "path": "licenses/LICENSE-jsonhpp",
+      "result": "ACCEPTED",
+      "reviewedSha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86",
+      "rule": "mit-grant+notice",
+      "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
+    },
+    {
+      "bytes": 1234,
+      "identifier": "Unlicense",
+      "path": "tools/ui/src/lib/vendors/big-integer/LICENSE",
+      "resolvedBy": "variants.json matchingVariant http-noslash-brackets",
+      "result": "ACCEPTED",
+      "reviewedSha256": "e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363",
+      "rule": "unlicense-text+guard-restriction-marker",
+      "sha256": "e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363"
+    },
+    {
+      "bytes": 1104,
+      "identifier": "MIT",
+      "path": "tools/ui/src/lib/vendors/decimal.js/LICENCE.md",
+      "result": "ACCEPTED",
+      "reviewedSha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c",
+      "rule": "mit-grant+notice",
+      "sha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c"
+    },
+    {
+      "bytes": 1073,
+      "identifier": "MIT",
+      "path": "tools/ui/src/lib/vendors/nerdamer-prime/LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "c9f52548869a0a2e63a7100055c54cebf36b9327c8fc2da7cf9ca8dddc2f1cca",
+      "rule": "mit-grant+notice",
+      "sha256": "c9f52548869a0a2e63a7100055c54cebf36b9327c8fc2da7cf9ca8dddc2f1cca"
+    },
+    {
+      "bytes": 1075,
+      "identifier": "MIT",
+      "path": "vendor/cpp-httplib/LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b",
+      "rule": "mit-grant+notice",
+      "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b"
+    },
+    {
+      "bytes": 1088,
+      "identifier": "MIT",
+      "path": "vendor/hash/rotate-bits/LICENSE.md",
+      "result": "ACCEPTED",
+      "reviewedSha256": "ca0b44aec101afb6b46f4c39b23369fa06a64fb9c0add37c2689d702156fee55",
+      "rule": "mit-grant+notice",
+      "sha256": "ca0b44aec101afb6b46f4c39b23369fa06a64fb9c0add37c2689d702156fee55"
+    },
+    {
+      "bytes": 41,
+      "identifier": "LicenseRef-PublicDomain",
+      "path": "vendor/hash/sha256/LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "b81d0022ca6367918c67b57e9647d3513ee58809fd4b0ef0b3492f1356bced25",
+      "rule": "short-public-domain-statement",
+      "sha256": "b81d0022ca6367918c67b57e9647d3513ee58809fd4b0ef0b3492f1356bced25"
+    },
+    {
+      "bytes": 1389,
+      "identifier": "BSD-2-Clause",
+      "path": "vendor/hash/xxhash/LICENSE",
+      "result": "ACCEPTED",
+      "reviewedSha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a",
+      "rule": "bsd-redistribution",
+      "sha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a"
+    }
+  ],
+  "licenceReview": {
+    "counts": {
+      "ACCEPTED": 10,
+      "NOT_A_LICENCE_TEXT": 1
+    },
+    "file": "licence_review.json",
+    "followUps": [
+      {
+        "compare": {
+          "differingLines": 1,
+          "equal": false,
+          "file": "compare.json",
+          "sha256": "e17e1d33d841915c6aea18fa0440524b5555ea01d0d1a30085cc27ecc4f9498d"
+        },
+        "path": "tools/ui/src/lib/vendors/big-integer/LICENSE",
+        "ruling": "ORC-R06-LIC2C-RULING",
+        "variants": {
+          "differingLineIndexes": [
+            20
+          ],
+          "file": "variants.json",
+          "matchingVariant": "http-noslash-brackets",
+          "onReferenceLine": true,
+          "sha256": "41125b9fba253d704d8d3a27729c1c9c025f790ea39f8743d652a4f0cfc2a07d"
+        }
+      }
+    ],
+    "reads": 11,
+    "sha256": "ee5385d11271dbf44d3e505d6b1fdb1f5277dfd8a04a43fd9cad64ca71c56964"
+  },
+  "mirror": {
+    "bucket": "harness-onion-artifact-mirror",
+    "createOnlyProof": {
+      "refused": true,
+      "secondWriteStatus": 403
+    },
+    "generation": "1795189583001229",
+    "manifest": {
+      "generation": "1795189583094545",
+      "name": "manifests/MODEL-ADOPT-PINS-001/r06-pins-001-20261120T154611Z.json",
+      "sha256": "d4081819536ee48e22717c5ea7e5303663fc345bcd5717c93115b34a8400c73d"
+    },
+    "object": "sha256/3f5f750e36326aea4d65c7623e7d597a33e395d65f4d76e5e0532171f252532b"
+  },
+  "notices": {
+    "file": "NOTICE.upstream",
+    "matched": 0,
+    "nameRule": "NOTICE at any depth (part of the licence name rule)"
+  },
+  "packet": "MODEL-ADOPT-PINS-001",
+  "pickRule": {
+    "picked": "v1.0.0",
+    "releasePagesRead": 2,
+    "releasesListed": 200,
+    "rule": "the newest non-prerelease release with publishedAt + minimumDays <= pinnedAt"
+  },
+  "quarantine": {
+    "decisionRef": "OQ-6 (owner 2026-11-20 18:39, '7 days + security exemption (Recommended)'), recorded as a decision in lock 74 or 75",
+    "exemption": {
+      "kind": "SECURITY_UPDATE",
+      "used": false
+    },
+    "minimumDays": 7,
+    "policyItem": "SUPPLY-QUARANTINE-001",
+    "source": "OWNER_DECISION"
+  },
+  "quarantinePassed": true,
+  "release": {
+    "commit": "b1b770d90d94cad9e9ea5b993bdbc383a522fb28",
+    "commitTree": "03d5ee6748f415d4069dc570764c24ff3576a0f1",
+    "pinnedAt": "2026-11-20T15:46:11Z",
+    "publishedAt": "2026-11-13T10:20:19Z",
+    "tag": "v1.0.0"
+  },
+  "schema": "planeon.adoption-dossier/v1",
+  "upstreamLicence": {
+    "bytes": 1078,
+    "identifier": "MIT",
+    "path": "LICENSE",
+    "result": "ACCEPTED",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  }
+}
